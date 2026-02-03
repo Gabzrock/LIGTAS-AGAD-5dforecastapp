@@ -12,6 +12,8 @@
         { name: "Puerto Princesa", lat: 9.7392, lon: 118.7353 },
         { name: "Tacloban, Leyte", lat: 11.2433, lon: 125.0047 },
         { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438 },
+        { name: "Northern, Samar", lat: 12.5087, lon: 124.6645 },
+        { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438 },
         { name: "Zamboanga City", lat: 6.9214, lon: 122.0790 },
         { name: "Tuguegarao", lat: 17.6132, lon: 121.7270 }
     ];
