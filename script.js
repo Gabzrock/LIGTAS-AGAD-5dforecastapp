@@ -2,20 +2,28 @@
     // IMPORTANT: REPLACE THIS WITH YOUR API KEY
     const API_KEY = '17a13e02b8ff0aeddd7167e2ea25c430'; 
 
-    const provinces = [
-        { name: "IPB, UP Los Baños", lat: 14.1647, lon: 121.2419 },
-        { name: "Metro Manila", lat: 14.5995, lon: 120.9842 },
-        { name: "Cebu City", lat: 10.3157, lon: 123.8854 },
-        { name: "Davao City", lat: 7.1907, lon: 125.4553 },
-        { name: "Iloilo City", lat: 10.7202, lon: 122.5621 },
-        { name: "Baguio City", lat: 16.4023, lon: 120.5960 },
-        { name: "Puerto Princesa", lat: 9.7392, lon: 118.7353 },
-        { name: "Tacloban, Leyte", lat: 11.2433, lon: 125.0047 },
-        { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438 },
-        { name: "Northern, Samar", lat: 12.5087, lon: 124.6645 },
-        { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438 },
-        { name: "Zamboanga City", lat: 6.9214, lon: 122.0790 },
-        { name: "Tuguegarao", lat: 17.6132, lon: 121.7270 }
+const provinces = [
+        { name: "IPB, UP Los Baños, Laguna ", lat: 14.1647, lon: 121.2419},
+        { name: "National Art Center (NAC), UP Los Baños, Laguna", lat: 14.1636, lon: 121.2158},
+        { name: "Bitin, Bay, Laguna", lat: 14.10834, lon: 121.2247},
+        { name: "UP-Landgrant, Siniloan, Laguna", lat: 14.4903, lon: 121.5145},
+        { name: "Metro Manila", lat: 14.5995, lon: 120.9842},
+        { name: "Cebu City", lat: 10.3157, lon: 123.8854},
+        { name: "Davao City", lat: 7.1907, lon: 125.4553},
+        { name: "Iloilo City", lat: 10.7202, lon: 122.5621},
+        { name: "Baguio City", lat: 16.4023, lon: 120.5960},
+        { name: "Mankayan, Benguet", lat: 16.8228, lon: 120.8178},
+        { name: "Buguias, Benguet", lat: 16.7883, lon: 120.8329},
+        { name: "Bokod, Benguet", lat: 16.5497, lon: 120.8381},
+        { name: "Tublay, Benguet", lat: 16.4767, lon: 120.6598},
+        { name: "Itogon, Benguet", lat: 16.4012, lon: 120.6468},
+        { name: "Puerto Princesa, Palawan", lat: 9.7392, lon: 118.7353},
+        { name: "Tacloban, Leyte", lat: 11.2433, lon: 125.0047},
+        { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438},
+        { name: "Northern, Samar", lat: 12.5087, lon: 124.6645},
+        { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438},
+        { name: "Zamboanga City", lat: 6.9214, lon: 122.0790},
+        { name: "Tuguegarao", lat: 17.6132, lon: 121.7270}
     ];
 
     // DOM References
