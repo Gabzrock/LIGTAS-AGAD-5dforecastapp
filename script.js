@@ -7,6 +7,7 @@ const provinces = [
         { name: "National Art Center (NAC), UP Los Baños, Laguna", lat: 14.1636, lon: 121.2158},
         { name: "Bitin, Bay, Laguna", lat: 14.10834, lon: 121.2247},
         { name: "UP-Landgrant, Siniloan, Laguna", lat: 14.4903, lon: 121.5145},
+        { name: "Lobo, Batangas", lat: 13.6417, lon: 121.1934},
         { name: "Metro Manila", lat: 14.5995, lon: 120.9842},
         { name: "Cebu City", lat: 10.3157, lon: 123.8854},
         { name: "Davao City", lat: 7.1907, lon: 125.4553},
