@@ -22,7 +22,6 @@ const provinces = [
         { name: "Tacloban, Leyte", lat: 11.2433, lon: 125.0047},
         { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438},
         { name: "Northern, Samar", lat: 12.5087, lon: 124.6645},
-        { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438},
         { name: "Zamboanga City", lat: 6.9214, lon: 122.0790},
         { name: "Tuguegarao", lat: 17.6132, lon: 121.7270}
     ];
@@ -95,7 +94,7 @@ const provinces = [
                     radius: 20000, weight: 1
                 }).addTo(markersLayer);
 
-                marker.bindPopup(`<b>${res.name}</b><br>Rain Accumulation: ${Math.round(totalRain)}mm`);
+                marker.bindPopup(`<b>${res.name}</b><br>6-day Rainfall Accumulation: ${Math.round(totalRain)}mm`);
                 
                 // Click to Select
                 marker.on('click', () => {
