@@ -83,10 +83,10 @@ const provinces = [
                 const totalRain = res.list.reduce((acc, curr) => acc + (curr.rain?.['3h'] || 0), 0);
                 
                 // Color Logic
-                let color = 'transparent'; // Blue
-                if (totalRain > 30) color = '#d9534f'; // Red
-                else if (totalRain > 15) color = '#ff9800'; // Orange
-                else if (totalRain > 7.5) color = 'yellow'; // Green-Yellow
+                let color = 'transparent'; // no-color
+                if (totalRain > 30) color = 'red'; // Red
+                else if (totalRain > 15) color = 'orange'; // Orange
+                else if (totalRain > 7.5) color = 'yellow'; // Yellow
 
                 // 20km Radius Circle
                 const marker = L.circle([res.lat, res.lon], {
