@@ -9,8 +9,6 @@ const provinces = [
         { name: "UP-Landgrant, Siniloan, Laguna", lat: 14.4903, lon: 121.5145},
         { name: "Batangas city, Batangas", lat: 13.7626,lon: 121.0580},
         { name: "Lobo, Batangas", lat: 13.6417, lon: 121.1934},
-        { name: "Metro Manila", lat: 14.5995, lon: 120.9842},
-        { name: "Cebu City", lat: 10.3157, lon: 123.8854},
         { name: "Baguio City", lat: 16.4023, lon: 120.5960},
         { name: "Mankayan, Benguet", lat: 16.8228, lon: 120.8178},
         { name: "Buguias, Benguet", lat: 16.7883, lon: 120.8329},
@@ -18,11 +16,10 @@ const provinces = [
         { name: "Tublay, Benguet", lat: 16.4767, lon: 120.6598},
         { name: "Itogon, Benguet", lat: 16.4012, lon: 120.6468},
         { name: "Puerto Princesa, Palawan", lat: 9.7392, lon: 118.7353},
-        { name: "Tacloban, Leyte", lat: 11.2433, lon: 125.0047},
         { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438},
         { name: "Northern, Samar", lat: 12.5087, lon: 124.6645},
-        { name: "Zamboanga City", lat: 6.9214, lon: 122.0790},
-        { name: "Tuguegarao", lat: 17.6132, lon: 121.7270}
+        { name: "Iriga city, Camarines sur", lat: 13.5379, lon: 123.4458}
+
     ];
 
     // DOM References
