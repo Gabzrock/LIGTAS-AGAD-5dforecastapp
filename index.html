@@ -1,27 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>LIGTAS-AGAD | Weather Forecast</title>
-    <link rel="stylesheet" href="./style.css">
-
-  </head>
-    
-  <body>
-  <!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LIGTAS-AGAD | WEATHER FORECAST</title>
   
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <link rel="stylesheet" href="./style.css">
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -29,7 +19,14 @@
   <div class="main-container">
 
     <div id="weather-section" class="group-section" style="border-top: 4px solid var(--accent);">
-      <h2 class="group-title">Real-Time Weather Monitoring & Forecast</h2>
+      
+      <div class="section-header-row">
+        <h2 class="group-title">Real-Time Weather Monitoring & Forecast</h2>
+        <div class="export-actions">
+          <button id="btn-gps" class="btn-export btn-gps" onclick="findUserLocation()">📍 Find My Location</button>
+          <button id="btn-theme" class="btn-export" onclick="toggleTheme()">🌙 Night Mode</button>
+        </div>
+      </div>
       
       <div class="weather-row">
         <div class="map-panel">
@@ -39,8 +36,7 @@
             <div class="legend-item"><div class="legend-dot" style="background: orange;"></div> 15-30mm</div>
             <div class="legend-item"><div class="legend-dot" style="background: red;"></div> > 30mm</div>
           </div>
-                    <span><i>Color coding is based from:<strong> PAGASA</strong></i></span>
-
+          <span><i>Color coding is based from:<strong> PAGASA</strong></i></span>
         </div>
 
         <div class="forecast-panel">
@@ -77,15 +73,19 @@
           </tbody>
         </table>
       </div>
+
+      <div class="chart-section-container">
+        <div class="table-title" style="border-top: 1px solid var(--border);">Rainfall Accumulation Trend (mm)</div>
+        <div class="chart-canvas-wrapper">
+          <canvas id="rainfallChart"></canvas>
+        </div>
+      </div>
+
     </div>
+  </div> 
 
-
-    </div> </div> <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="./script.js"></script>
 
 </body>
-</html>
-    <script  src="./script.js"></script>
-  </body>
 </html>
