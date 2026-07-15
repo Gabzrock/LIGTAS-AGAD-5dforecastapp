@@ -19,7 +19,9 @@ const provinces = [
     { name: "Puerto Princesa, Palawan", lat: 9.7392, lon: 118.7353},
     { name: "Legazpi, Albay", lat: 13.1391, lon: 123.7438},
     { name: "Northern, Samar", lat: 12.5087, lon: 124.6645},
-    { name: "Iriga city, Camarines Sur", lat: 13.5379, lon: 123.4458}
+    { name: "Iriga city, Camarines Sur", lat: 13.5379, lon: 123.4458},
+    { name: "Pasil, Kalinga", lat: 17.3963, lon: 121.1688}
+
 ];
 
 const els = {
